@@ -29,8 +29,9 @@ SECRET_KEY = os.getenv("DjANGO_SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pierrepicasso-venturaengine-8000.codio-box.uk']
 
+CSRF_TRUSTED_ORIGINS=['https://pierrepicasso-venturaengine-8000.codio-box.uk']
 
 # Application definition
 
