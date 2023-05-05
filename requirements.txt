@@ -58,3 +58,4 @@ vine==5.0.0
 virtualenv==20.20.0
 wcwidth==0.2.6
 Werkzeug==2.2.3
+gunicorn==20.1.0
